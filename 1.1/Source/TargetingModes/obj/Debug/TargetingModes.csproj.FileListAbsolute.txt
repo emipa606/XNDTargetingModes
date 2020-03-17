@@ -1,0 +1,18 @@
+E:\Documents\My RimWorld Mods\V1.0\TargetingModes\Assemblies\TargetingModes.dll
+E:\Documents\My RimWorld Mods\V1.0\TargetingModes\Source\TargetingModes\obj\Debug\TargetingModes.csprojAssemblyReference.cache
+E:\Documents\My RimWorld Mods\V1.0\TargetingModes\Source\TargetingModes\obj\Debug\TargetingModes.csproj.CoreCompileInputs.cache
+E:\Documents\My RimWorld Mods\V1.0\TargetingModes\Source\TargetingModes\obj\Debug\TargetingModes.dll
+E:\Documents\GitHub\TargetingModes\Assemblies\TargetingModes.dll
+E:\Documents\GitHub\TargetingModes\Source\TargetingModes\obj\Debug\TargetingModes.csprojAssemblyReference.cache
+E:\Documents\GitHub\TargetingModes\Source\TargetingModes\obj\Debug\TargetingModes.csproj.CoreCompileInputs.cache
+E:\Documents\GitHub\TargetingModes\Source\TargetingModes\obj\Debug\TargetingModes.dll
+E:\Documents\GitHub\TargetingModes\1.0\Assemblies\TargetingModes.dll
+D:\SteamLibrary\steamapps\common\RimWorld\MyMods\TargetingModes\1.0\Assemblies\TargetingModes.dll
+D:\SteamLibrary\steamapps\common\RimWorld\MyMods\TargetingModes\Source\TargetingModes\obj\Debug\TargetingModes.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\TargetingModes\1.0\Assemblies\TargetingModes.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\TargetingModes\1.1\Assemblies\TargetingModes.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\TargetingModes\Source\TargetingModes\obj\Debug\TargetingModes.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\TargetingModes\Source\TargetingModes\obj\Debug\TargetingModes.csprojResolveAssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\MyMods\TargetingModes\1.1\Source\TargetingModes\obj\Debug\TargetingModes.csprojResolveAssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\MyMods\TargetingModes\1.1\Assemblies\TargetingModes.dll
+D:\SteamLibrary\steamapps\common\RimWorld\MyMods\TargetingModes\1.1\Source\TargetingModes\obj\Debug\TargetingModes.dll
