@@ -63,7 +63,7 @@ namespace TargetingModes
 
             private static void TryAssignRandomTargetingModeMechanoid(Pawn pawn)
             {
-                if (Rand.Chance(TargetingModesSettings.mechanoidTargModeChance))
+                if (Rand.Chance((TargetingModesSettings.mechanoidTargModeChance/100)))
                     pawn.TryAssignRandomTargetingMode();
             }
 

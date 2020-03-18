@@ -44,10 +44,10 @@ namespace TargetingModes
             options.CheckboxLabeled("Settings_AccuracyPenalties".Translate(), ref accuracyPenalties, "Settings_AccuracyPenalties_Tooltip".Translate());
             options.Gap();
 
-            options.Label("Settings_TargModeResetFrequency".Translate() + ": " + targModeResetFrequencyInt, -1f, "Settings_TargModeResetFrequency_{targModeResetFrequencyInt}".Translate());
-            targModeResetFrequencyInt = (int)options.Slider((float)targModeResetFrequencyInt, 1f, 5f);
+            String targModeResetFrequency = "Settings_TargModeResetFrequency_" + targModeResetFrequencyInt;
+            options.Label("Settings_TargModeResetFrequency".Translate() + ": " + targModeResetFrequency.Translate(), -1f, targModeResetFrequency.Translate());
+            targModeResetFrequencyInt = (int)options.Slider((float)targModeResetFrequencyInt, 0f, 5f);
 
-            ////options.AddLabeledSlider("Settings_TargModeResetFrequency".Translate(), ref targModeResetFrequencyInt, 0, 5, rightAlignedLabel: $"Settings_TargModeResetFrequency_{targModeResetFrequencyInt}".Translate(), roundTo: 1);
             options.GapLine(24);
 
             // Settings for AI
@@ -58,21 +58,18 @@ namespace TargetingModes
             if (!raidersUseTargModes)
                 GUI.color = Color.grey;
 
-            ////options.AddLabeledSlider("Settings_MinRaiderWeaponSkill".Translate(), ref raiderMinSkillForTargMode, 0, 20, rightAlignedLabel: raiderMinSkillForTargMode.ToString(), roundTo: 1);
-
             options.Label("Settings_MinRaiderWeaponSkill".Translate() + ": " + raiderMinSkillForTargMode, -1f, raiderMinSkillForTargMode.ToString());
             raiderMinSkillForTargMode = (int)options.Slider((float)raiderMinSkillForTargMode, 0f, 20f);
 
             options.Gap();
-            ////options.AddLabeledSlider("Settings_MechTargModeChance".Translate(), ref mechanoidTargModeChance, 0, 1, rightAlignedLabel: mechanoidTargModeChance.ToStringPercent(), roundTo: 0.01f);
-            options.Label("Settings_MechTargModeChance".Translate() + ": " + mechanoidTargModeChance/100, -1f, mechanoidTargModeChance.ToStringPercent());
+
+            options.Label("Settings_MechTargModeChance".Translate() + ": " + mechanoidTargModeChance + "%" , -1f, mechanoidTargModeChance.ToString() + "%");
             mechanoidTargModeChance = (int)options.Slider((float)mechanoidTargModeChance, 0f, 100f);
+
             options.Gap();
 
-            ////options.AddLabeledSlider("Settings_BaseManhunterTargModeChance".Translate(), ref baseManhunterTargModeChance, 0, 1, rightAlignedLabel: baseManhunterTargModeChance.ToStringPercent(), roundTo: 0.01f);
-
-            options.Label("Settings_BaseManhunterTargModeChance".Translate() + ": " + baseManhunterTargModeChance/100, -1f, baseManhunterTargModeChance.ToStringPercent());
-            baseManhunterTargModeChance = (int)options.Slider((float)baseManhunterTargModeChance, 0f, 100f);
+            options.Label("Settings_BaseManhunterTargModeChance".Translate() + ": " + baseManhunterTargModeChance + "%", -1f, baseManhunterTargModeChance.ToString() + "%");
+            baseManhunterTargModeChance = (int)options.Slider((float)baseManhunterTargModeChance, 0f, 100f );          
 
             // End of section
             GUI.color = defaultColor;

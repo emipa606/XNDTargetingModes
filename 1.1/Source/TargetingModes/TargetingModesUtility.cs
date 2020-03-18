@@ -121,7 +121,7 @@ namespace TargetingModes
 
             // Animal needs at least intermediate intelligence to use targeting modes
             if (orderOverIntermediate >= 0)
-                return TargetingModesSettings.baseManhunterTargModeChance * (1 + orderOverIntermediate * TargModeChanceFactorOffsetPerTrainabilityOrder);
+                return (TargetingModesSettings.baseManhunterTargModeChance / 100 ) * (1 + orderOverIntermediate * TargModeChanceFactorOffsetPerTrainabilityOrder);
             return 0f;
         }
 

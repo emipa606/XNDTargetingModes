@@ -16,3 +16,4 @@ D:\SteamLibrary\steamapps\common\RimWorld\Mods\TargetingModes\Source\TargetingMo
 D:\SteamLibrary\steamapps\common\RimWorld\MyMods\TargetingModes\1.1\Source\TargetingModes\obj\Debug\TargetingModes.csprojResolveAssemblyReference.cache
 D:\SteamLibrary\steamapps\common\RimWorld\MyMods\TargetingModes\1.1\Assemblies\TargetingModes.dll
 D:\SteamLibrary\steamapps\common\RimWorld\MyMods\TargetingModes\1.1\Source\TargetingModes\obj\Debug\TargetingModes.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\TargetingModes\1.1\Source\TargetingModes\obj\Debug\TargetingModes.dll

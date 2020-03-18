@@ -26,7 +26,7 @@ namespace TargetingModes
                 foreach (var pawn in __result)
                 {
                     if ((pawn.RaceProps.Humanlike && parms.raidStrategy == TM_RaidStrategyDefOf.ImmediateAttackSmart && pawn.IsCompetentWithWeapon()) ||
-                        (pawn.RaceProps.IsMechanoid && Rand.Chance(TargetingModesSettings.mechanoidTargModeChance)))
+                        (pawn.RaceProps.IsMechanoid && Rand.Chance(TargetingModesSettings.mechanoidTargModeChance/100)))
                     {
                         pawn.TryAssignRandomTargetingMode();
                     }
