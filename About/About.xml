@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>[XND] Targeting Modes</name>
-	<author>XeoNovaDan</author>
-	<url>https://ludeon.com/forums/index.php?topic=29503.0</url>
+	<name>Targeting Modes [1.1]</name>
+	<author>XeoNovaDan + OdysseyScorpio</author>
+	<url>https://github.com/OdysseyScorpio/TargetingModes</url>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
-	<description>Current Version: v1.1.7 (29th July 2019)\n\nV.A.T.S for RimWorld! Allow your colonists, obedient animals and even some raiders to prioritize targeting certain body part groups of their enemies. Shoot those heads off in style!</description>
+	<packageId>OdysseyScorpio.TargetingModes.20200317</packageId>
+	<description>Current Version: v2.0.0 (17th March 2020)\n\nUpdated to work with 1.1 and keep existing compatability with 1.0(untested at this time) - Please let me know if you spot any thing out of place with this.\n
+Previous Version: v1.1.7 (29th July 2019)\n\nV.A.T.S for RimWorld! Allow your colonists, obedient animals and even some raiders to prioritize targeting certain body part groups of their enemies. Shoot those heads off in style!\n\n\n
+\nI did not create this mod, I only updated it to work with 1.1/\nOriginal Credits go to XeoNovaDan aka XND \nhttps://github.com/XeoNovaDan/TargetingModes\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=1508165821</description>
 </ModMetaData>
