@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{33b39408-f11a-4ce7-bf86-2931d62be489}") = "TargetingModes", "TargetingModes\TargetingModes.csproj", "{9d2c7fd5-6f25-47ee-83dc-8de373232e21]}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9d2c7fd5-6f25-47ee-83dc-8de373232e21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9d2c7fd5-6f25-47ee-83dc-8de373232e21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9d2c7fd5-6f25-47ee-83dc-8de373232e21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9d2c7fd5-6f25-47ee-83dc-8de373232e21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19671985-4d26-4a16-8dd9-db1050d75380}
+	EndGlobalSection
+EndGlobal

@@ -1,33 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Targeting Modes [1.1]</name>
-	<author>XeoNovaDan + OdysseyScorpio</author>
-	<url>https://github.com/OdysseyScorpio/TargetingModes</url>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
-	</supportedVersions>
-	<packageId>OdysseyScorpio.TargetingModes.20200317</packageId>
-	<modDependenciesByVersion>
-		<v1.0/>
-		<v1.1>
-			<li>
-				<packageId>brrainz.harmony</packageId>
-				<displayName>Harmony</displayName>
-				<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-				<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-			</li>
-		</v1.1>
-	</modDependenciesByVersion>
-	<incompatibleWith/>
-	<loadBefore/>
-	<loadAfterByVersion>
-		<v1.0/>
-		<v1.1>
-			<li>brrainz.harmony</li>
-		</v1.1>
-	</loadAfterByVersion>
-	<description>Current Version: v2.0.0 (18th March 2020)\n\nUpdated to work with 1.1 and keep existing compatability with 1.0(untested at this time) - Please let me know if you spot any thing out of place with this.\n
-Previous Version: v1.1.7 (29th July 2019)\n\nV.A.T.S for RimWorld! Allow your colonists, obedient animals and even some raiders to prioritize targeting certain body part groups of their enemies. Shoot those heads off in style!\n\n\n
-\nI did not create this mod, I only updated it to work with 1.1/\nOriginal Credits go to XeoNovaDan aka XND \nhttps://github.com/XeoNovaDan/TargetingModes\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=1508165821</description>
+  <name>[XND] Targeting Modes (Continued)</name>
+  <packageId>Mlie.XNDTargetingModes</packageId>
+  <author>XeoNovaDan</author>
+  <url>https://github.com/emipa606/XNDTargetingModes</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of XeoNovaDans mod https://steamcommunity.com/sharedfiles/filedetails/?id=1508165821
+Based on the update by Odyssey Scorpio https://steamcommunity.com/sharedfiles/filedetails/?id=2026720565
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/XNDTargetingModes][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[h1][b]1.1 Version[/b][/h1]
+I am no longer maintaining this mod, though Odyssey Scorpio has kindly uploaded a maintained version of this mod, so be sure to check it out: https://steamcommunity.com/sharedfiles/filedetails/?id=2026720565
+
+[h1][b]Overview[/b][/h1]
+Targeting Modes sort of brings V.A.T.S from the Fallout universe to RimWorld, so you can now have your colonists and obedience-trained animals lay waste to those who dare oppose you by having them prioritize which body part groups they target, whether it be in ranged or melee combat. If you're using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1505914869][b]What The Hack[/b][/url] by Roolo, you can even have your mechanoids join in on the head-slicing/blasting fun when they're being controlled!
+
+[b]There are five possible targeting modes:[/b]
+[list]
+[*][b]General -[/b] This is the same as vanilla, and the default targeting mode for all pawns. There are no accuracy penalties.
+[*][b]Head -[/b] Pawns will prioritize getting hits off on the target's head, with head hits being ~4x more likely (~8x against humans since their base chance is so low). There's a significant accuracy penalty of 30% though.
+[*][b]Body -[/b] Pawns will prioritize outright mangling their target's body, with body hits being ~2x more likely. There's a minor accuracy penalty of 10%.
+[*][b]Arms -[/b] Pawns will prioritize hindering their target's manipulation, with arm hits and so on being ~3x more likely. There's a moderate accuracy penalty of 20%.
+[*][b]Legs -[/b] Pawns will prioritize inhibiting their target's movement, with leg hits and so on being ~3x more likely. There's a moderate accuracy penalty of 20%.
+[/list]
+With the differing characteristics of each mode, an extra layer of strategy has been added to the game. To change a pawn's targeting mode, click the 'Targeting' button at the bottom of the screen, and then select which targeting mode you want your pawn to use:
+
+[img]https://i.imgur.com/jXsWAzn.png[/img]
+
+This is also doable with multiple pawns via the same process. After a certain amount of time out of combat, targeting modes will automatically reset to the general mode to cover you if you forgot to reset everybody's modes.
+
+Beware though, because raiders can also use targeting modes! With smart raids, any raider with a skill level of 8 or above with the weapon they have equipped could also target certain body parts. Some mechanoid raiders have also been programmed to favour a body part group over others, and some animals in manhunter packs may have an appetite for different body parts.
+
+Don't like some of the above? Fret not for you can configure this mod through mod settings! Changeable aspects of this mod include whether certain targeting modes even affect accuracy, how often the game will try to reset targeting modes (or if it even tries to), whether hostiles can use targeting modes and how likely they are to use targeting modes.
+
+I'd also recommend using this with something like [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1464742390][b]Custom Death Randomness[/b][/url] to be able to eliminate the random death-on-downed chance when even incapacitating your foes.
+
+Powered by the Harmony Patch Library.
+
+[h1][b]Compatibility[/b][/h1]
+[b]Mods:[/b]
+Integrates with The Birds and The Bees by Fluffy. Works with What The Hack by Roolo. Should also work with all alien race and animal mods.
+
+Incompatible with Combat Extended and I no longer plan on attempting a patch since it isn't really feasible.
+
+[b]Saves:[/b]
+Can safely be added to ongoing saves. There may be some errors when removing this from a save, though they should be harmless.
+
+[h1][b]Links[/b][/h1]
+Showcase by BaRKy: https://www.youtube.com/watch?v=qpGxbPat__E - thanks!
+
+GitHub releases: https://github.com/XeoNovaDan/TargetingModes/releases
+Source code: https://github.com/XeoNovaDan/TargetingModes
+
+Want to chat? I have a discord server here: https://discord.gg/gyM44bb
+
+[h1][b]Credits[/b][/h1]
+[b]Shotgunfrenzy -[/b] for his fantastic work with the preview image and the UI icons for each targeting mode!
+[b]Brrainz -[/b] for his fantastic work with the Harmony Patch Library. This wouldn't have been possible without it!
+[b]Why_is_that -[/b] for their Settings Helper which allowed for labeled sliders.
+[b]AUTOMATIC -[/b] for helping get the raider target mode functionality working
+[b]Fluffy -[/b] for letting me use part of TBATB's logo
+[b]Marnador -[/b] for their RimWorld-style font
+[b]Sentient_Worm -[/b] for their countless bug reports
+
+[h1][b]License[/b][/h1]
+As is standard with my mods: you may include this mod in a mod pack, and you may derive from this, but please inform me if you're doing so through Ludeon Forums (preferably) or the Steam Comments Section, and give credit where credit's due.
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
 </ModMetaData>
