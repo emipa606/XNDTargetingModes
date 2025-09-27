@@ -1,4 +1,4 @@
-# [[XND] Targeting Modes (Continued)]()
+# [[XND] Targeting Modes (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3565359455)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -8,10 +8,6 @@ Based on the update by Odyssey Scorpio https://steamcommunity.com/sharedfiles/fi
 ![Image](https://i.imgur.com/pufA0kM.png)
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
-# **1.1 Version**
-
-I am no longer maintaining this mod, though Odyssey Scorpio has kindly uploaded a maintained version of this mod, so be sure to check it out: https://steamcommunity.com/sharedfiles/filedetails/?id=2026720565
 
 # **Overview**
 
@@ -58,8 +54,6 @@ Showcase by BaRKy: https://www.youtube.com/watch?v=qpGxbPat__E - thanks!
 GitHub releases: https://github.com/XeoNovaDan/TargetingModes/releases
 Source code: https://github.com/XeoNovaDan/TargetingModes
 
-Want to chat? I have a discord server here: https://discord.gg/gyM44bb
-
 # **Credits**
 
 **Shotgunfrenzy -** for his fantastic work with the preview image and the UI icons for each targeting mode!
@@ -80,10 +74,12 @@ As is standard with my mods: you may include this mod in a mod pack, and you may
 
 -  See if the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
 -  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
+[![Image](https://img.shields.io/github/v/release/emipa606/XNDTargetingModes?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3565359455) | tags:  targeting,  strategy

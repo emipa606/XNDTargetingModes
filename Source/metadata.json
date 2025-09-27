@@ -2,16 +2,17 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "LastXmlCleaning": "2025-09-09T22:41:07.7325681+02:00",
+  "LastXmlCleaning": "2025-09-27T21:08:36.1520048+02:00",
   "SocialImageSet": true,
   "Patches": true,
   "Defs": true,
   "Assemblies": true,
-  "LinesOfCode": 27342,
+  "LinesOfCode": 27584,
   "LinesOfXML": 3998,
   "SearchTags": [
     " targeting",
     " strategy"
   ],
-  "PreviewVersion": "1.6"
+  "PreviewVersion": "1.6",
+  "CodeBaseSize": 71
 }

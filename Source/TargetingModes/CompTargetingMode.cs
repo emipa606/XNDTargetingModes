@@ -28,6 +28,11 @@ public class CompTargetingMode : ThingComp, ITargetModeSettable
 
     public override IEnumerable<Gizmo> CompGetGizmosExtra()
     {
+        if (Pawn?.def.thingClass.Name.EndsWith("VehiclePawn") == true)
+        {
+            yield break;
+        }
+
         if (parent.Faction == Faction.OfPlayer && (Pawn == null ||
                                                    Pawn.training != null &&
                                                    Pawn.training.HasLearned(TrainableDefOf.Obedience) || Pawn.Drafted))

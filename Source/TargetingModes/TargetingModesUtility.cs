@@ -24,6 +24,11 @@ public static class TargetingModesUtility
             return false;
         }
 
+        if (instigator.def.thingClass.Name.EndsWith("VehiclePawn"))
+        {
+            return false;
+        }
+
         switch (instigator)
         {
             case Pawn pawn when pawn.CurrentEffectiveVerb.verbProps.CausesExplosion:

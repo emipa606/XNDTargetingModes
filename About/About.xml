@@ -31,7 +31,7 @@ Based on the update by Odyssey Scorpio https://steamcommunity.com/sharedfiles/fi
 [img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
-    [tr][td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/XNDTargetingModes][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [tr][td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/XNDTargetingModes][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
     [tr]
         [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
@@ -40,9 +40,6 @@ Based on the update by Odyssey Scorpio https://steamcommunity.com/sharedfiles/fi
 [/table]
 	
 [img]https://i.imgur.com/Z4GOv8H.png[/img]
-[h1][b]1.1 Version[/b][/h1]
-I am no longer maintaining this mod, though Odyssey Scorpio has kindly uploaded a maintained version of this mod, so be sure to check it out: https://steamcommunity.com/sharedfiles/filedetails/?id=2026720565
-
 [h1][b]Overview[/b][/h1]
 Targeting Modes sort of brings V.A.T.S from the Fallout universe to RimWorld, so you can now have your colonists and obedience-trained animals lay waste to those who dare oppose you by having them prioritize which body part groups they target, whether it be in ranged or melee combat. If you're using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1505914869][b]What The Hack[/b][/url] by Roolo, you can even have your mechanoids join in on the head-slicing/blasting fun when they're being controlled!
 
@@ -83,8 +80,6 @@ Showcase by BaRKy: https://www.youtube.com/watch?v=qpGxbPat__E - thanks!
 GitHub releases: https://github.com/XeoNovaDan/TargetingModes/releases
 Source code: https://github.com/XeoNovaDan/TargetingModes
 
-Want to chat? I have a discord server here: https://discord.gg/gyM44bb
-
 [h1][b]Credits[/b][/h1]
 [b]Shotgunfrenzy -[/b] for his fantastic work with the preview image and the UI icons for each targeting mode!
 [b]Brrainz -[/b] for his fantastic work with the Harmony Patch Library. This wouldn't have been possible without it!
@@ -101,11 +96,13 @@ As is standard with my mods: you may include this mod in a mod pack, and you may
 [list]
 [*] See if the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.1</modVersion>
+[/list] 
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3565359455][img]https://img.shields.io/github/v/release/emipa606/XNDTargetingModes?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  targeting,  strategy</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.2</modVersion>
 </ModMetaData>
