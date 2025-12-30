@@ -24,22 +24,22 @@
   <loadAfter>
     <li>brrainz.harmony</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of XeoNovaDans mod https://steamcommunity.com/sharedfiles/filedetails/?id=1508165821
 Based on the update by Odyssey Scorpio https://steamcommunity.com/sharedfiles/filedetails/?id=2026720565
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
-    [tr][td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td] [td][url=https://github.com/emipa606/XNDTargetingModes][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [tr][td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td] [td][url=https://github.com/emipa606/XNDTargetingModes][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/RemoveMayWork.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
 [h1][b]Overview[/b][/h1]
 Targeting Modes sort of brings V.A.T.S from the Fallout universe to RimWorld, so you can now have your colonists and obedience-trained animals lay waste to those who dare oppose you by having them prioritize which body part groups they target, whether it be in ranged or melee combat. If you're using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1505914869][b]What The Hack[/b][/url] by Roolo, you can even have your mechanoids join in on the head-slicing/blasting fun when they're being controlled!
 
@@ -53,7 +53,7 @@ Targeting Modes sort of brings V.A.T.S from the Fallout universe to RimWorld, so
 [/list]
 With the differing characteristics of each mode, an extra layer of strategy has been added to the game. To change a pawn's targeting mode, click the 'Targeting' button at the bottom of the screen, and then select which targeting mode you want your pawn to use:
 
-[img]https://i.imgur.com/jXsWAzn.png[/img]
+[img]https://img.litet.net/jXsWAzn.png[/img]
 
 This is also doable with multiple pawns via the same process. After a certain amount of time out of combat, targeting modes will automatically reset to the general mode to cover you if you forgot to reset everybody's modes.
 
@@ -92,7 +92,7 @@ Source code: https://github.com/XeoNovaDan/TargetingModes
 [h1][b]License[/b][/h1]
 As is standard with my mods: you may include this mod in a mod pack, and you may derive from this, but please inform me if you're doing so through Ludeon Forums (preferably) or the Steam Comments Section, and give credit where credit's due.
 
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -104,5 +104,5 @@ As is standard with my mods: you may include this mod in a mod pack, and you may
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3565359455][img]https://img.shields.io/github/v/release/emipa606/XNDTargetingModes?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  targeting,  strategy</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.2</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.3</modVersion>
 </ModMetaData>

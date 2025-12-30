@@ -14,7 +14,7 @@ public static class Verb_MeleeAttack_GetNonMissChance
         var compTargetingMode = caster?.TryGetComp<CompTargetingMode>();
         if (compTargetingMode != null && __result == caster.GetStatValue(StatDefOf.MeleeHitChance))
         {
-            __result *= __result * compTargetingMode.GetTargetingMode().HitChanceFactor;
+            __result *= compTargetingMode.GetTargetingMode().HitChanceFactor;
         }
     }
 }

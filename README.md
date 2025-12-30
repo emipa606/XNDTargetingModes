@@ -1,13 +1,13 @@
 # [[XND] Targeting Modes (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=3565359455)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of XeoNovaDans mod https://steamcommunity.com/sharedfiles/filedetails/?id=1508165821
 Based on the update by Odyssey Scorpio https://steamcommunity.com/sharedfiles/filedetails/?id=2026720565
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 # **Overview**
 
@@ -25,7 +25,7 @@ Targeting Modes sort of brings V.A.T.S from the Fallout universe to RimWorld, so
 
 With the differing characteristics of each mode, an extra layer of strategy has been added to the game. To change a pawn's targeting mode, click the 'Targeting' button at the bottom of the screen, and then select which targeting mode you want your pawn to use:
 
-![Image](https://i.imgur.com/jXsWAzn.png)
+![Image](https://img.litet.net/jXsWAzn.png)
 
 This is also doable with multiple pawns via the same process. After a certain amount of time out of combat, targeting modes will automatically reset to the general mode to cover you if you forgot to reset everybody's modes.
 
@@ -68,7 +68,7 @@ Source code: https://github.com/XeoNovaDan/TargetingModes
 
 As is standard with my mods: you may include this mod in a mod pack, and you may derive from this, but please inform me if you're doing so through Ludeon Forums (preferably) or the Steam Comments Section, and give credit where credit's due.
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 

@@ -1,5 +1,8 @@
 # Changelog for XNDTargetingModes
 
+1.6.3 - Fixed bug with melee-hitchance, multiplied twice. Thanks to afbqwer
+
+
 1.6.2 - Should work better with Vehicle Framework
 
 
