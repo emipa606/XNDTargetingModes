@@ -22,4 +22,5 @@
   <CommandSetTargetingModeMulti>Zielmodus einstellen</CommandSetTargetingModeMulti>
   <CommandSetTargetingMode>Anvisieren: {0}</CommandSetTargetingMode>
   <CommandSetTargetingModeDesc>Bestimmen Sie, welchen Zielmodus die Spielfigur verwenden soll.</CommandSetTargetingModeDesc>
+  <Settings_TargModeResetFrequency_6>Beim Rückgängigmachen</Settings_TargModeResetFrequency_6>
 </LanguageData>

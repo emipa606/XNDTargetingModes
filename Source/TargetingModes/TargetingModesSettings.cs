@@ -36,7 +36,7 @@ public class TargetingModesSettings : ModSettings
         var key = $"Settings_TargModeResetFrequency_{targModeResetFrequencyInt}";
         listingStandard.Label("Settings_TargModeResetFrequency".Translate() + ": " + key.Translate(), -1f,
             key.Translate());
-        targModeResetFrequencyInt = (int)listingStandard.Slider(targModeResetFrequencyInt, 0f, 5f);
+        targModeResetFrequencyInt = (int)listingStandard.Slider(targModeResetFrequencyInt, 0f, 6f);
         listingStandard.GapLine(24f);
         listingStandard.CheckboxLabeled("Settings_RaidersUseTargetingModes".Translate(), ref RaidersUseTargModes,
             "Settings_RaidersUseTargetingModes_Tooltip".Translate());

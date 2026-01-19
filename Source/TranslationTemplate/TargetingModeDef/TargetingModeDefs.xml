@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: arms -->
+  <Arms.label>arms</Arms.label>
+  <!-- EN: body -->
+  <Body.label>body</Body.label>
+  <!-- EN: head -->
+  <Head.label>head</Head.label>
+  <!-- EN: legs -->
+  <Legs.label>legs</Legs.label>
+  <!-- EN: general -->
+  <Standard.label>general</Standard.label>
+</LanguageData>

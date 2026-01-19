@@ -44,20 +44,24 @@ public class CompTargetingMode : ThingComp, ITargetModeSettable
     public override void CompTick()
     {
         base.CompTick();
-        if (targetingMode == null)
+        if (targetingMode == null || TargetingModesSettings.TargModeResetFrequencyInt == 6 && Pawn?.Drafted == false)
+        {
+            SetTargetingMode(TargetingModesUtility.DefaultTargetingMode);
+            return;
+        }
+
+        if (!parent.IsHashIntervalTick(TargetModeResetCheckInterval))
+        {
+            return;
+        }
+
+        if (CanResetTargetingMode())
         {
             SetTargetingMode(TargetingModesUtility.DefaultTargetingMode);
         }
-        else if (parent.IsHashIntervalTick(TargetModeResetCheckInterval))
+        else
         {
-            if (CanResetTargetingMode())
-            {
-                SetTargetingMode(TargetingModesUtility.DefaultTargetingMode);
-            }
-            else
-            {
-                resetTargetingModeTick = Find.TickManager.TicksGame + targModeResetAttemptInterval();
-            }
+            resetTargetingModeTick = Find.TickManager.TicksGame + targModeResetAttemptInterval();
         }
     }
 

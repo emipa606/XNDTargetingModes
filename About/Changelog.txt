@@ -1,5 +1,9 @@
 # Changelog for XNDTargetingModes
 
+1.6.4 - Added option to reset targeting mode on undrafting
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
 1.6.3 - Fixed bug with melee-hitchance, multiplied twice. Thanks to afbqwer
 
 

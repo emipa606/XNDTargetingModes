@@ -22,4 +22,5 @@
   <CommandSetTargetingModeMulti>设置瞄准模式</CommandSetTargetingModeMulti>
   <CommandSetTargetingMode>锁定目标：{0}</CommandSetTargetingMode>
   <CommandSetTargetingModeDesc>确定棋子应使用的瞄准模式。</CommandSetTargetingModeDesc>
+  <Settings_TargModeResetFrequency_6>取消起草时</Settings_TargModeResetFrequency_6>
 </LanguageData>

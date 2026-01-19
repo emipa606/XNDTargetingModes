@@ -22,4 +22,5 @@
   <CommandSetTargetingModeMulti>Définir le mode de ciblage</CommandSetTargetingModeMulti>
   <CommandSetTargetingMode>Ciblage : {0}</CommandSetTargetingMode>
   <CommandSetTargetingModeDesc>Détermine le mode de ciblage que le pion doit utiliser.</CommandSetTargetingModeDesc>
+  <Settings_TargModeResetFrequency_6>Lors de l'annulation de la rédaction</Settings_TargModeResetFrequency_6>
 </LanguageData>
